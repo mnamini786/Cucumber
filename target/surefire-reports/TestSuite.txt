@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.477 s <<< FAILURE! - in TestSuite
+runScenario(runners.TestRunner)  Time elapsed: 1.157 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I log in as problem user' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I log in as problem user")
+public void i_log_in_as_problem_user() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
